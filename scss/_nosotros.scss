@@ -1,0 +1,43 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ INFO NOSOTROS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.bannerNosotros{
+    color: $ocre-2;
+    background-color: $bg-2;
+    border-radius: 10px;
+    width: 50vw;
+    margin: 5vh auto;
+    padding: 10px;
+    .bannerNosotros__subtitle{
+      font-size: 1.8em;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      h2{
+        font-size: 2em;
+        color: $ocre-2;
+        line-height: 0.9em;
+        padding-left: 10%;
+      }
+    }
+    .bannerNosotros__parrafo{
+      position: relative;
+      left:10%;
+      max-width: 70%;
+      text-align: justify;
+      color: $ocre-2 ;
+      font-size: 1rem;
+      font-style: italic;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .contenedorBtnNos{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    padding-bottom: 5px;
+    }
+    
+
+    
+        

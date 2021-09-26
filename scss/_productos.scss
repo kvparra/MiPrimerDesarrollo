@@ -1,0 +1,94 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ INFO PRODUCTOS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*PRODUCTO UNO*******/
+
+.productoUno{
+    background-color: $bg-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+    .productoUno__subtitulo{
+      font-size: 25px;
+      h2{
+        font-size: 2em;
+        color: $ocre-2;
+        line-height: 0.9em;
+        padding-left: 10%;
+      }
+    }
+    .productoUno__parrafo{
+      position: relative;
+      left:10%;
+      bottom: 10%;
+      text-align: justify;
+      max-width: 70%;
+      color: $ocre-2 ;
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+  }
+  
+  /*PRODUCTO DOS*******/
+  
+  .productoDos{
+    background-color: $lila-2 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    .productoDos__subtitulo{
+      font-size: 25px;
+      h2{
+        font-size: 2em;
+        color: $ocre-2;
+        line-height: 0.9em;
+        padding-left: 10%;
+      }
+    }
+    .productoDos__parrafo{
+      position: relative;
+      left:10%;
+      bottom: 10%;
+      text-align: justify;
+      max-width: 70%;
+      color: $ocre-2 ;
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+  }
+    
+  /*PRODUCTO TRES*******/
+  
+  .productoTres{
+    background-color: $lila-3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    .productoTres__subtitulo{
+      font-size: 25px;
+      h2{
+        font-size: 2em;
+        color: $ocre-2;
+        line-height: 0.9em;
+        padding-left: 10%;
+      }
+    }
+    .productoTres__parrafo{
+      position: relative;
+      left:10%;
+      bottom: 10%;
+      max-width: 70%;
+      text-align: justify;
+      color: $ocre-2 ;
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+  }
+  
+  
+  
+  

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Nos encontramos en el Valle Inferior del Río Chubut. Encontrarás datos para contactarte con nosotros o visitarnos en nuestra web. ">
+    <meta name="keywords"  content="APICULTURA, APÍCOLA, ABEJAS, TRELEW, RAWSON, GAIMAN, RÍO CHUBUT, PATAGONIA, ORGÁNICO"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,300;0,400;0,500;0,700;1,200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<script src="https://kit.fontawesome.com/7d4193cf05.js" crossorigin="anonymous"></script>
+
+    <title> CONTACTO - IMKERIN</title>
+</head>
+<body class="mx-5">
+   
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++ NAVBAR +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<header class="header">
+  <div class="header__logoytitulo d-flex">
+    <a id="header_media-logo" class="navbar-brand" href="/index.html">
+    <img src="/multimedia/honeycomb.png" alt="logoAbeja" width="30" height="24" class="d-inline-block align-text-top">
+    </a>
+
+    <div class="header__titulo">
+        IMKER<span>IN</span>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-light">
+      <div class="navbar-items">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navbarNavDropdown" class="collapse navbar-collapse">
+
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/productos.html">Miel</a></li>
+              <li><a class="dropdown-item" href="#">Polen</a></li>
+              <li><a class="dropdown-item" href="#">Propóleo</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/servicios.html">Servicios</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/nosotros.html">Nosotros</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contacto.html">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++ FORMULARIO DE CONTACTO  +++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<div class="contactForm">
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="name" class="form-label">Nombre:</label>
+    <input type="text" class="form-control" id="inputName4" placeholder="Introduce aquí tu nombre">
+  </div>
+  <div class="col-md-6">
+    <label for="lastName" class="form-label">Apellido:</label>
+    <input type="text" class="form-control" id="inputLastName4" placeholder="Introduce aquí tu apellido">
+  </div>
+
+  <div class="col-md-12">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="name@sitio.com">
+  </div>
+
+  <div class="col-md-12">
+    <label for="inputMotivo" class="form-label">Motivo de consulta:    </label>
+    <select id="inputMotivo" class="form-select">
+      <option value="services">Solicitud de presupuesto por servicio</option>
+      <option value="products">Solicitud de presupuesto por productos</option>
+      <option value="proveedores">Alta de proveedores</option>
+      <option value="proveedores">Alta de clientes</option>
+      <option value="otro">Otro motivo</option>
+    </select>
+  </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Deseo suscribirme para recibir las promociones vigentes
+      </label>
+    </div>
+  </div>
+
+  <div class="col-12 mb-2">
+    <h5>Comentario adicional</h5>
+  <textarea name="tipearAqui" id="tipearAqui" class="col-md-12 mb-2" ></textarea>
+<!--   cols="30" rows="10" -->
+  </div>
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-custom-color">Enviar datos</button>
+  </div>
+
+  <div class="col-12">
+    <button type="reset" class="btn btn-custom-color">Borrar datos</button>
+  </div>
+
+
+</form>
+</div>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++ FOOTER +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<footer class="text-white text-center text-lg-start ">
+  <!-- Grid container -->
+  <div class="container p-1">
+    <!--Grid row-->
+    <div class="row mt-1">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Sobre nosotros</h5>
+
+        <p>
+          Estamos reinventando el botiquín hogareño, creando productos limpios y efectivos impulsados ​​por la colmena y respaldados por la ciencia.
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4 pb-1"></h5>
+<!--           <div class="form-outline form-white mb-4">
+          <input type="text" id="formControlLg" class="form-control form-control-lg" />
+          <label class="form-label" for="formControlLg">Search</label>
+        </div> -->
+        
+        <ul class="fa-ul" style="margin-left: 1.65em;">
+          <li class="mb-1">
+            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Chacra N°111, Trelew, Chubut</span>
+          </li>
+          <li class="mb-1">
+            <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">karivparra@gmail.com</span>
+          </li>
+          <li class="mb-1">
+            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">280 444 4444</span>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Acercate a conocernos!</h5>
+
+        <table class="table text-center text-white">
+          <tbody class="fw-normal">
+            <tr>
+              <td>Lun - Vie</td>
+              <td>8am - 17pm</td>
+            </tr>
+            <tr>
+              <td>Sáb - Dom:</td>
+              <td>8am - 12 am</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+<!--     </div> -->
+  <!-- Grid container -->
+
+  <!-- Copyright y redes -->
+
+    <!-- Grid container -->
+<div class="container p-1 d-flex justify-content-around" style="background-color: rgba(0, 0, 0, 0.2)">
+  <!-- Section: Social media -->
+  <div class=" col-lg-4">
+    <!-- Facebook -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-facebook-f"></i
+    ></a>
+
+    <!-- Twitter -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-twitter"></i
+    ></a>
+
+    <!-- Instagram -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-instagram"></i
+    ></a>
+  </div>
+
+  <div class="text-center p-1 col-lg-4 align-self-center" >
+    © 2020 Copyright: KVP 2021
+  </div>
+
+</div>
+<!-- Grid container -->
+</footer>
+
+</div>
+<!-- End of .container -->
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+</html>

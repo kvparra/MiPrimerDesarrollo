@@ -1,0 +1,47 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++ INFO SERVICIOS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.serviciosBanner{
+    .serviciosBanner__img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        }
+    .serviciosBanner__info{
+        margin-top: 10px;
+        width: 100%;
+        background-color: $bg-2;
+        align-self: center;
+        border-radius: 10px;
+
+        h2{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 3em;
+            color: $ocre-2;
+            line-height: 0.9em;
+            padding-left: 10%;
+          }
+        }
+        .serviciosBanner__parrafo{
+            position: relative;
+            left:10%;
+            max-width: 70%;
+            text-align: justify;
+            color: $ocre-2;
+            font-size: 1rem;
+            font-style: italic;
+            padding-bottom: 50px;
+          }
+        
+}
+  
+   
+  .contenedorBoton{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    padding-bottom: 212px;
+    }
+    
+  
+  
