@@ -79,6 +79,17 @@ footer {
         margin-top: 20px;
     }
 
+    .card-body{
+        display: flex;
+        .btn{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 10%;
+            padding-bottom: 5px;
+
+        }
+    }
+
 
 
     .testimonials {
