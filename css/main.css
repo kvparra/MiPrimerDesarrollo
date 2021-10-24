@@ -7980,6 +7980,11 @@ body {
   justify-content: flex-end;
   padding-right: 10%;
   padding-bottom: 212px; }
+  .contenedorBoton a {
+    text-decoration: none;
+    color: white; }
+  .contenedorBoton a:hover {
+    color: white; }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++ INFO PRODUCTOS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*PRODUCTO UNO*******/
@@ -7999,19 +8004,28 @@ body {
   .productoUno .productoUno__parrafo {
     position: relative;
     left: 10%;
-    bottom: 10%;
     text-align: justify;
     max-width: 70%;
     color: white;
     font-size: 1.2rem;
     font-style: italic; }
+  .productoUno .btn-secondary {
+    background-color: #9F7183;
+    border-color: #9F7183;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .productoUno a {
+    text-decoration: none;
+    color: white; }
+  .productoUno a:hover {
+    color: white; }
 
 /*PRODUCTO DOS*******/
 .productoDos {
   background-color: #9e81a0;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border-radius: 10px; }
   .productoDos .productoDos__subtitulo {
     font-size: 25px; }
@@ -8023,12 +8037,21 @@ body {
   .productoDos .productoDos__parrafo {
     position: relative;
     left: 10%;
-    bottom: 10%;
     text-align: justify;
     max-width: 70%;
     color: white;
     font-size: 1.2rem;
     font-style: italic; }
+  .productoDos .btn-secondary {
+    background-color: #9F7183;
+    border-color: #9F7183;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .productoDos a {
+    text-decoration: none;
+    color: white; }
+  .productoDos a:hover {
+    color: white; }
 
 /*PRODUCTO TRES*******/
 .productoTres {
@@ -8047,12 +8070,21 @@ body {
   .productoTres .productoTres__parrafo {
     position: relative;
     left: 10%;
-    bottom: 10%;
     max-width: 70%;
     text-align: justify;
     color: white;
     font-size: 1.2rem;
     font-style: italic; }
+  .productoTres .btn-secondary {
+    background-color: #9F7183;
+    border-color: #9F7183;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .productoTres a {
+    text-decoration: none;
+    color: white; }
+  .productoTres a:hover {
+    color: white; }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++ INFO CONTACTO +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .contactForm {
@@ -8071,7 +8103,8 @@ body {
   width: 50vw;
   margin: 5vh auto;
   padding: 10px;
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   .bannerNosotros .bannerNosotros__subtitle {
     font-size: 1.8em;
     padding-top: 30px;
@@ -8096,6 +8129,11 @@ body {
   justify-content: flex-end;
   padding-right: 10%;
   padding-bottom: 5px; }
+  .contenedorBtnNos a {
+    text-decoration: none;
+    color: white; }
+  .contenedorBtnNos a:hover {
+    color: white; }
 
 /* INDEX */
 header {
@@ -8148,12 +8186,20 @@ footer {
   margin-top: 20px; }
 
 .card-body {
-  display: flex; }
-  .card-body .btn {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 10%;
-    padding-bottom: 5px; }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center; }
+  .card-body .card-title {
+    font-weight: 500; }
+  .card-body .btn-secondary {
+    background-color: #9F7183;
+    border-color: #CDB0BD; }
+  .card-body a {
+    text-decoration: none;
+    color: white; }
+  .card-body a:hover {
+    color: white; }
 
 .testimonials .item {
   padding-top: 33px; }
@@ -8292,6 +8338,10 @@ footer {
 /* https://demo.themefisher.com/phantom/testimonials.html */
 /* MEDIA QUERIES */
 @media (min-width: 360px) and (max-width: 768px) {
+  .titleH1 {
+    display: none; }
+    .titleH1 h1, .titleH1 .h1 {
+      display: none; }
   .heightCarousel {
     margin-top: 10px;
     height: 50vh; }
@@ -8322,6 +8372,10 @@ footer {
     padding-top: 0; } }
 
 @media (min-width: 768px) and (max-width: 1200px) {
+  .titleH1 {
+    display: none; }
+    .titleH1 h1, .titleH1 .h1 {
+      display: none; }
   .heightCarousel {
     margin-top: 10px;
     height: 60vh; }

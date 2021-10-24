@@ -24,13 +24,25 @@
     .productoUno__parrafo{
       position: relative;
       left:10%;
-      bottom: 10%;
       text-align: justify;
       max-width: 70%;
       color: $ocre-2 ;
       font-size: 1.2rem;
       font-style: italic;
     }
+    .btn-secondary{
+      background-color: $bg-1;
+      border-color: $bg-1;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  a{
+      text-decoration: none;
+      color:$ocre-2;
+  }
+  a:hover{
+      color:$ocre-2;
+  }
   }
   
   /*PRODUCTO DOS*******/
@@ -39,7 +51,7 @@
     background-color: $lila-2 ;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 10px;
     .productoDos__subtitulo{
       font-size: 25px;
@@ -53,13 +65,26 @@
     .productoDos__parrafo{
       position: relative;
       left:10%;
-      bottom: 10%;
       text-align: justify;
       max-width: 70%;
       color: $ocre-2 ;
       font-size: 1.2rem;
       font-style: italic;
     }
+
+    .btn-secondary{
+      background-color: $bg-1;
+      border-color: $bg-1;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  a{
+      text-decoration: none;
+      color:$ocre-2;
+  }
+  a:hover{
+      color:$ocre-2;
+  }
   }
     
   /*PRODUCTO TRES*******/
@@ -82,13 +107,26 @@
     .productoTres__parrafo{
       position: relative;
       left:10%;
-      bottom: 10%;
       max-width: 70%;
       text-align: justify;
       color: $ocre-2 ;
       font-size: 1.2rem;
       font-style: italic;
     }
+
+    .btn-secondary{
+      background-color: $bg-1;
+      border-color: $bg-1;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  a{
+      text-decoration: none;
+      color:$ocre-2;
+  }
+  a:hover{
+      color:$ocre-2;
+  }
   }
   
   

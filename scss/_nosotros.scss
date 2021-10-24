@@ -9,6 +9,7 @@
     margin: 5vh auto;
     padding: 10px;
     display: flex;
+    flex-direction: column;
     .bannerNosotros__subtitle{
       font-size: 1.8em;
       padding-top: 30px;
@@ -37,6 +38,13 @@
     justify-content: flex-end;
     padding-right: 10%;
     padding-bottom: 5px;
+    a{
+      text-decoration: none;
+      color:$ocre-2;
+  }
+    a:hover{
+        color:$ocre-2;
+    }
     }
     
 
